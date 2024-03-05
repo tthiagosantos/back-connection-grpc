@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package poc;
+
+service TicketService {
+  rpc CreateTicket(CreateTicketRequest) returns(CreateTicketResponse) {};
+  rpc BidiHello(stream CreateTicketRequest) returns(stream CreateTicketResponse) {};
+  rpc UploadFile(stream UploadFileRequest) returns(UploadFileResponse) {};
+}
+
+message CreateTicketRequest {
+  string name   = 1;
+  string email  = 2;
+  string ticket = 3;
+}
+
+message CreateTicketResponse {
+  string id = 1;
+  string name   = 2;
+  string email  = 3;
+  string ticket = 4;
+}
+
+message UploadFileRequest {
+  bytes file = 1;
+}
+
+message UploadFileResponse {
+  string message = 1;
+}

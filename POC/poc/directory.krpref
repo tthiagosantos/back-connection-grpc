@@ -1,0 +1,22 @@
+{
+  "settings": [
+    {
+      "options": {
+        "grpc": {
+          "maxReceiveMessageSize": 5000,
+          "timeout": "localhost"
+        },
+        "rest": {
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "pathParams": [],
+          "version": "http20"
+        }
+      }
+    }
+  ]
+}

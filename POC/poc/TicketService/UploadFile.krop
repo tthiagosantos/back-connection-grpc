@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "poc.TicketService.UploadFile"
+  },
+  "requests": [
+    {
+      "location": "UploadFile-request-0.json"
+    }
+  ],
+  "operationType": "clientStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "f870cedd-e8bc-4932-915d-f88fb2ca2d3c"
+}

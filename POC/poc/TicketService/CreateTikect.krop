@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "poc.TicketService.CreateTikect"
+  },
+  "requests": [
+    {
+      "location": "CreateTikect-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc",
+  "importStreamId": "f870cedd-e8bc-4932-915d-f88fb2ca2d3c"
+}

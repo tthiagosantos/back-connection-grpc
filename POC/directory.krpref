@@ -1,0 +1,12 @@
+{
+  "settings": [
+    {
+      "options": {
+        "grpc": {
+          "endpoint": "Poc",
+          "disableServerCertificateValidation": false
+        }
+      }
+    }
+  ]
+}

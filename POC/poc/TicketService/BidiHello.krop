@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "poc.TicketService.BidiHello"
+  },
+  "requests": [
+    {
+      "location": "BidiHello-request-0.json"
+    }
+  ],
+  "operationType": "duplexStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "f870cedd-e8bc-4932-915d-f88fb2ca2d3c"
+}
